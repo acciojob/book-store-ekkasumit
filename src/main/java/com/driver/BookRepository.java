@@ -1,9 +1,11 @@
 package com.driver;
 import java.util.*;
 
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Component
 public class BookRepository {
 
     public BookRepository(){
